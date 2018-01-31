@@ -1,0 +1,7 @@
+{
+    "retCode": 200,
+    "retDesc": "成功",
+    "data": {
+        "username": "测试用户名"
+    }
+}

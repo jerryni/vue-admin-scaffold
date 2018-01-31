@@ -1,0 +1,30 @@
+{
+    "retCode": 200,
+    "retDesc": "成功",
+    "data": {
+        "newOrUpdate": true,
+        "couponInfo": {
+            "id": 7785, // 主键id
+            "openTime": 1499590645889,
+            "closeTime": 1499591645889,
+            "relatedId": 7785, // 关联的navId
+            "schemeId": 7785, // 优惠券方案ID
+            "isIngredientCoupon": 0, // 优惠券形式 0、普通优惠券 1、成分优惠券
+            "couponType": 1, // 优惠券类型 1:满减券 2:抵扣券
+            "couponAmount": 1000, // 优惠券面值
+            "threshold": 100, // 阀值 当COUPON_TYPE为1时可用 满减用
+            "containCount": 100, // isIngredientCoupon为1使用,表示组合券包含的券张数
+            "schemeName": "优惠券名称", // 优惠券名称
+            "ifSendNewUser": 0, // 优惠券派发范围 0全部用户 1新用户 2老用户
+            "totalNumberLimit": 100, // 限派发总数量
+            "totalNumber": 100, // 已发总数量
+            "dailyNumberLimit": 100, // 每日派发数量
+            "todayNumber": 100, // 当天已发数量
+            "link": "http://github.com/jerryni",
+            "linkType": "2",
+            "promotionTag": null,
+            "icon": "https://haitao.nos.netease.com/09c1191a-f9d8-426e-b9ad-490ba56a7744.jpg", // 当天已发数量
+            "showStatus": 1 // 显示状态 1 展示 2 隐藏
+        }
+    }
+}

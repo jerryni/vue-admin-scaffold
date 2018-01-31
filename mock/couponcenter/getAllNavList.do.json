@@ -1,0 +1,25 @@
+{
+    "retCode": 200,
+    "retDesc": "成功",
+    "data": {
+        "navList": [{
+            "id": 1234,
+            "name": "导航一",
+            "sortOrder": 99,
+            "startTime": 1499236911671,
+            "endTime": 1499236921671
+        },{
+            "id": 222,
+            "name": "导航2",
+            "sortOrder": 999,
+            "startTime": 1499236911671,
+            "endTime": 1499236921671
+        },{
+            "id": 333,
+            "name": "导航3",
+            "sortOrder": 59,
+            "startTime": 1499236911671,
+            "endTime": 1499236921671
+        }]
+    }
+}
