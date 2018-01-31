@@ -1,7 +1,7 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 var path = require('path')
 
-const buildPath = '../../activityshow-ms-web/src/main/resources'
+const buildPath = '../dist'
 module.exports = {
   build: {
     env: require('./prod.env'),
